@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Museum Tour Guide</title>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+        <link rel="stylesheet" href="css\styles.css">
+        <link rel="stylesheet" href="css\mediaqueries.css">
+    </head>
+
+
+
+    <!--DESKTOP NAV-->
+
+    <body>
+        <nav id="desktop-nav">
+           <div class="logo">Surabaya Museum</div>
+           <div>
+            <ul class="nav-links">
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#slideshow-container">HOME</a></li>
+                <li><a href="#package">OUR PACKAGE</a></li>
+                <li><a href="#contact">CALL US</a></li>
+            </ul>
+           </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Surabaya Museum</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#" onclick="toggleMenu()">LOGIN</a></li>
+                    <li><a href="#slideshow-container" onclick="toggleMenu()">HOME</a></li>
+                    <li><a href="#package" onclick="toggleMenu()">OUR PACKAGE</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">CALL US</a></li>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!--BANNER SLIDE-->
+
+        <main>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img src="assets/Tugu Pahlawan (1).jpeg" style="width:100%">
+                  <div class="text">Museum Sepuluh November</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="assets/Dr. Soetmijo Surabaya (1).jpeg" style="width:100%">
+                  <div class="text">Museum Dr. Soetomo</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="assets/Mesuem Pendidikan Surabaya (1).jpeg" style="width:100%">
+                  <div class="text">Museum Pendidikan Surabaya</div>
+                </div>
+                <div class="mySlides fade">
+                  <img src="assets/Tjokoraminoto (1).jpeg" style="width:100%">
+                  <div class="text">Museum H.O.S. Tjokoraminoto</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="assets/Gedung Siola (1).jpeg" style="width:100%">
+                  <div class="text">Museum Surabaya (Gedung Siola)</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="assets/Soepratman (1).jpeg" style="width:100%">
+                  <div class="text">Museum W.R. Soepratman</div>
+                </div>
+
+                <div class="banner-title"><h1>Your Best Museum Tour Guide in Surabaya</h1>
+                    <p>Exploring Histories and Discovering Stories</p>
+                </div>
+                
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+            </div>
+                
+        </main>
+
+
+
+        <!--TESTIMONIALS-->
+
+        <section id="testimonials">
+            <h1 class="testimonials-tittle">TESTIMONIALS</h1>
+            <div class="testimonials-container">
+                <div class="details-container">
+                    <img src="assets/Testi1.jpg" alt="Testimonials icon" class="testimonials-img">
+                    <h3>Jackie Lee</h3>
+                    <p>“The tour guides are very knowledgeable and make each exhibit come alive with interesting stories and unique facts.”</p>
+                </div>
+            </div>
+            <div class="testimonials-container">
+                <div class="details-container">
+                    <img src="assets/Testi2.jpg" alt="Testimonials icon" class="testimonials-img">
+                    <h3>Uncle Roger</h3>
+                    <p>“The tour was very informative and fun, thanks to the friendly and enthusiastic guide. Fuiyoh, Nice!”</p>
+                </div>
+            </div>
+            <div class="testimonials-container">
+                <div class="details-container">
+                    <img src="assets/Testi3.jpg" alt="Testimonials icon" class="testimonials-img">
+                    <h3>Johnny English</h3>
+                    <p>“Well, the tour guides really mastered the material and answered all our questions patiently and clearly. Excellent job.”</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--OFFER-->
+
+        <section id="offer">
+            <p class="section_text_p1">EXPLORE OUR</p>
+            <h1 class="offer-tittle">TOUR OFFER</h1>
+            <div class="offer-details-container">
+                <div class="offer-containers">
+                    <div class="details-containers">
+                        <div class="article-container">
+                            <article>
+                                <div>
+                                    <h3>1. VIP Exclusive Tour</h3>
+                                    <p>Experience a private tour with access to exclusive areas and special exhibitions.</p>
+                                </div>
+                            </article>
+                            <article>
+                                <div>
+                                    <h3>2. Family and Children's Tour</h3>
+                                    <p>Tours specially designed for families with children, with interactive and educational activities.</p>
+                                </div>
+                            </article>
+                            <article>
+                                <div>
+                                    <h3>3. Night Tour</h3>
+                                    <p>Experience a different museum atmosphere with an exclusive nighttime tour.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--PACKAGES-->
+
+        <div class="package">
+            <div class="package-tittle">
+                <h1>OUR PACKAGE</h1>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <img src="assets/Tugu Pahlawan (1).jpeg" alt="Image 1">
+                <h3>Museum Sepuluh November</h3>
+                <p>November 10 Museum to see historical relics during the colonial period. This monument was built to commemorate the events of the November 10 battle in Surabaya. At that time there were a lot of Sorboyo areks who died fighting the Dutch.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="assets/Dr. Soetmijo Surabaya (1).jpeg" alt="Image 2">
+                <h3>Museum Dr. Soetomo</h3>
+                <p>Dr. Soetomo Museum is a special museum that displays the life history of Dr Soetomo, a movement figure and one of the founders of the Boedi Oetomo organization.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="assets/Mesuem Pendidikan Surabaya (1).jpeg" alt="Image 3">
+                <h3>Museum Pendidikan Surabaya</h3>
+                <p>The Surabaya Education Museum is a thematic museum which was established as a step to preserve the nation's history and culture with the aim of supporting educational, research and recreational activities in the city of Surabaya. This museum stores material evidence of education during the Pre-Literate period, the Classic period, the Colonial period and the Independence period.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <img src="assets/Tjokoraminoto (1).jpeg" alt="Image 4">
+                <h3>Museum H.O.S. Tjokroaminoto</h3>
+                <p>The HOS Tjokroaminoto Museum is the home of HOS Tjokroaminoto. This museum has high historical value because it is often used as a meeting place for nationalist leaders. They spent hours discussing ideologies and strategies to achieve national independence.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="assets/Gedung Siola (1).jpeg" alt="Image 5">
+                <h3>Museum Surabaya (Gedung Siola)</h3>
+                <p>The Surabaya Museum is a government museum that provides information about the history of the city of Surabaya. The Surabaya Siola Museum is said to have more than 1,000 collections. Almost all of them have an important role in the history of the development of the City of Heroes.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="assets/Soepratman (1).jpeg" alt="Image 6">
+                <h3>Museum W.R. Soepratman</h3>
+                <p>W. R. Soepratman's house is the house where the creator of the song Indonesia Raya died. The museum building was the house belonging to WR's older brother. Soepratman, whose name is Roekiyem Soepratijah. WR. Soepratman lived in the house in 1937, until he died on August 17 1938.</p>
+              </div>
+            </div>
+        </div>
+
+
+
+        <!--CONTACT US-->
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Input Your Name">
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Input Your Email">
+              
+                <label for="pilihan">Choice of Museums:</label>
+                <select id="pilihan" name="pilihan" required>
+                  <option value="" disabled-selected>Choose a Museum</option>
+                  <option value="museum">Museum Sepuluh November</option>
+                  <option value="museum">Museum Dr. Soetomo</option>
+                  <option value="museum">Museum Pendidikan Surabaya</option>
+                  <option value="museum">Museum H. O. S. Tjokroaminoto</option>
+                  <option value="museum">Museum Surabaya (Gedung Siola)</option>
+                  <option value="museum">Museum W.R. Soepratman</option>
+                </select>
+              
+                <button type="submit">Kirim</button>
+                <div id="notification" style="display: none;"></div>
+            </form>
+        </section>     
+        <script src="js/script.js"></script>
+    </body>
+
+
+
+    <!--FOOTER-->
+
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p id="copyright">Copyright &#169; 2024 TGSM by YaXioz. All RIghts Reserved</p>
+            </div>
+            <div class="col-md-6">
+              <ul class="social-media">
+                <li><a href="https://www.youtube.com/channel/UCniCG-dwyeE2pv2cHoYogFw" target="_blank"><i class="ri-youtube-fill"></i></a></li>
+                <li><a href="https://www.instagram.com/alfianzyh/" target="_blank"><i class="ri-instagram-line"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/alfiansyah285/" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+</html>
